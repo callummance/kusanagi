@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  kusanagi:
+    build: .
+    environment:
+      fflogs_api_key_file: /run/secrets/fflogs_api_key
+      discord_api_key_file: /run/secrets/discord_api_key
+      RUST_LOG: debug
+    secrets:
+      - fflogs_api_key
+      - discord_api_key
+
+secrets: 
+  fflogs_api_key: 
+    file: secret-fflogs.txt
+  discord_api_key:
+    file: secret-discord.txt
