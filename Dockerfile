@@ -8,5 +8,4 @@ WORKDIR /
 RUN apt-get update && apt-get install -y libssl-dev ca-certificates
 COPY --from=build /usr/local/cargo/bin/kusanagi-bin /usr/local/bin/kusanagi
 COPY ./phaseidentifiers /phaseidentifiers
-ENV RUST_LOG info
 ENTRYPOINT [ "kusanagi" ]
