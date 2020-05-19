@@ -1,0 +1,48 @@
+name = "The Epic of Alexander"
+
+[[phase]]
+name = "Living Liquid"
+    [phase.startMarker]
+        type = "fightStart"
+
+[[phase]]
+name = "Limit Cut"
+    [phase.startMarker]
+        type = "event"
+        evType = "Cast"
+        abilityId = 18480
+
+[[phase]]
+name = "Brute Justice and Cruise Chaser"
+    [phase.startMarker]
+        type = "event"
+        evType = "Cast"
+        abilityId = 18516
+
+[[phase]]
+name = "Alexander Prime (Temporal Stasis)"
+    [phase.startMarker]
+        type = "event"
+        evType = "Cast"
+        abilityId = 18522
+
+[[phase]]
+name = "Alexander Prime (Inception Formation)"
+    [phase.startMarker]
+        type = "event"
+        evType = "Cast"
+        abilityId = 18543
+
+[[phase]]
+name = "Alexander Prime (Wormhole Formation to enrage)"
+    [phase.startMarker]
+        type = "event"
+        evType = "Cast"
+        abilityId = 18542
+
+[[phase]]
+name = "Perfect Alexander"
+    [phase.startMarker]
+        type = "event"
+        evType = "Cast"
+        abilityId = 18554

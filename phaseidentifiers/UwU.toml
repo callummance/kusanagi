@@ -1,0 +1,48 @@
+name = "The Ultima Weapon"
+
+[[phase]]
+name = "Garuda"
+  [phase.startMarker]
+    type = "fightStart"
+
+[[phase]]
+name = "Ifrit"
+  [phase.startMarker]
+      type = "event"
+      evType = "BeginCast"
+      abilityId = 11102
+
+[[phase]]
+name = "Titan"
+  [phase.startMarker]
+      type = "event"
+      evType = "BeginCast"
+      abilityId = 11152
+
+[[phase]]
+name = "Lahabread"
+  [phase.startMarker]
+      type = "event"
+      evType = "BeginCast"
+      abilityId = 11122
+
+[[phase]]
+name = "Ultima (Predation)"
+  [phase.startMarker]
+      type = "event"
+      evType = "BeginCast"
+      abilityId = 11143
+
+[[phase]]
+name = "Ultima (Annihilation)"
+  [phase.startMarker]
+      type = "event"
+      evType = "BeginCast"
+      abilityId = 11596
+
+[[phase]]
+name = "Ultima (Suppression)"
+  [phase.startMarker]
+      type = "event"
+      evType = "BeginCast"
+      abilityId = 11597
